@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(14, 4, 4);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header a {
+    color: #f9f3f3;
+    text-decoration: none;
+  }
+  
+  #banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  #banner h1 {
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+
+  
+  #banner p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  #features {
+    background-color: #FFC0CB;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 4rem;
+  }
+  
+  #testimonials {
+    padding: 4rem;
+    background-color: #f79ab9;
+    margin-bottom: 5px;
+  }
+
+  #cta {
+    padding: 4rem;
+    background-color: rgb(244, 150, 150);
+  }
+
+  
+  #features h2,
+  #testimonials h2,
+  #cta h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  #features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #features li {
+    margin-bottom: 1rem;
+  }
+  
+  blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    margin: 2rem 0;
+  }
+  
+  cite {
+    font-style: italic;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    #banner h1 {
+      font-size: 2.5rem;
+    }
+  
+    #banner p {
+      font-size: 1.2rem;
+    }
+  
+    #features,
+    #testimonials,
+    #cta {
+      padding: 2rem;
+    }
+  
+    #features h2,
+    #testimonials h2,
+    #cta h2 {
+      font-size: 2.5rem;
+    }
+  }
